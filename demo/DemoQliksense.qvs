@@ -25,7 +25,7 @@ Script for DemoQliksense:
  ///$tab Section
  LIB CONNECT TO 'QSC_STRATOS_AZURESQLDW_DEV';
  
- LOAD HOLIDAY_ID as holiday, 
+ LOAD HOLIDAY_ID, 
  	REGION_KEY, 
  	HOLIDAY_DATE, 
  	DESCRIPTION_TEXT, 
